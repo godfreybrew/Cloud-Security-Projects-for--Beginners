@@ -27,3 +27,10 @@ Learn how to configure Identity and Access Management (IAM) policies on Google C
 - **Key Topics:** IAM Policies, Service Accounts, Role Assignments
 - **Tools:** Google Cloud Console, Google Cloud SDK
 
+### 4. [Securing Data in AWS S3 Buckets](https://github.com/godfreybrew/Cloud-Security-Projects-For-Beginners/blob/main/Project-4-Securing-Data-In-AWS-S3-Bucket.md)
+
+This project focuses on securing data stored in AWS S3 buckets. You will learn to create S3 buckets, enable encryption, set bucket policies, and configure access logs.
+
+- **Key Topics:** S3 Bucket Policies, Encryption, Access Logs
+- **Tools:** AWS Management Console, AWS CLI
+
