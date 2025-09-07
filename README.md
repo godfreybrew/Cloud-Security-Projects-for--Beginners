@@ -20,5 +20,10 @@ This project teaches you how to secure Azure Virtual Machines (VMs) using Networ
 - **Key Topics:** Network Security Groups, Inbound and Outbound Rules, VM Security
 - **Tools:** Azure Management Portal, Azure CLI
 
+### 3. [Google Cloud Platform Basics: Configuring IAM Policies](https://github.com/godfreybrew/Cloud-Security-Projects-For-Beginners/blob/main/Project-3-Configuring-IAM-Policies-on-GCP-Cloud-md)
 
+Learn how to configure Identity and Access Management (IAM) policies on Google Cloud Platform. This project covers creating service accounts, assigning roles, and implementing IAM policies.
+
+- **Key Topics:** IAM Policies, Service Accounts, Role Assignments
+- **Tools:** Google Cloud Console, Google Cloud SDK
 
