@@ -34,3 +34,10 @@ This project focuses on securing data stored in AWS S3 buckets. You will learn t
 - **Key Topics:** S3 Bucket Policies, Encryption, Access Logs
 - **Tools:** AWS Management Console, AWS CLI
 
+### 5. [Monitoring and Logging in Azure with Azure Security Center](https://github.com/godfreybrew/Cloud-Security-Projects-For-Beginners/blob/main/Project-5-Monitoring-and-Logging-in-Azure-with-Azure-Security-Center.md)
+
+In this project, you will learn to monitor and log activities in Azure using Azure Security Center. You'll cover setting up Security Center, configuring security policies, and responding to security alerts.
+
+- **Key Topics:** Azure Security Center, Diagnostic Logs, Security Alerts, Log Analytics
+- **Tools:** Azure Management Portal, Azure CLI
+
