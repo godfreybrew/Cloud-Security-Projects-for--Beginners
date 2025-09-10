@@ -60,3 +60,45 @@ In this project, you'll learn how to secure AWS EC2 instances. We'll cover basic
 #### Expected Output
 
 - Successful SSH connection to your EC2 instance.
+
+### Exercise 3: Update and Secure Your Instance
+
+#### Steps
+
+1. Update the package list:
+    ```bash
+    sudo yum update -y
+    ```
+2. Install security updates:
+    ```bash
+    sudo yum upgrade -y
+    ```
+3. Create a new user:
+    ```bash
+    sudo adduser newuser
+    ```
+4. Grant new user sudo privileges:
+    ```bash
+    sudo usermod -aG wheel newuser
+    ```
+5. Secure SSH access:
+    - Edit the SSH configuration file:
+        ```bash
+        sudo vi /etc/ssh/sshd_config
+        ```
+    - Disable root login:
+        ```plaintext
+        PermitRootLogin no
+        ```
+    - Allow only key-based authentication:
+        ```plaintext
+        PasswordAuthentication no
+        ```
+    - Restart the SSH service:
+        ```bash
+        sudo systemctl restart sshd
+        ```
+
+#### Expected Output
+
+- Instance updated and secured, root login disabled, and only key-based authentication allowed.
