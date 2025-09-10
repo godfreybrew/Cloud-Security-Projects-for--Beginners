@@ -102,3 +102,38 @@ In this project, you'll learn how to secure AWS EC2 instances. We'll cover basic
 #### Expected Output
 
 - Instance updated and secured, root login disabled, and only key-based authentication allowed.
+
+### Exercise 4: Configure a Basic Firewall with Security Groups
+
+#### Steps
+
+1. In the AWS Management Console, navigate to the EC2 Dashboard.
+2. Select your instance and go to the "Security" tab.
+3. Click on the security group associated with your instance.
+4. Edit the inbound rules:
+    - Remove the SSH rule allowing access from anywhere.
+    - Add an SSH rule allowing access only from your IP address.
+5. Edit the outbound rules (if necessary).
+
+#### Expected Output
+
+- A security group configured to restrict SSH access to your IP only.
+
+### Exercise 5: Set Up CloudWatch for Monitoring
+
+#### Steps
+
+1. In the AWS Management Console, navigate to the CloudWatch Dashboard.
+2. Click on "Alarms" and then "Create Alarm".
+3. Select the "EC2" metric and choose the instance.
+4. Configure the alarm (e.g., CPU utilization > 80% for 5 minutes).
+5. Set up notifications (e.g., via email).
+6. Review and then create your alarm.
+
+#### Expected Output
+
+- CloudWatch alarm set up to monitor your EC2 instance and notify you of high CPU utilization.
+
+## Conclusion
+
+By completing these exercises, you have successfully launched, connected to, secured, and monitored an AWS EC2 instance. These are essential skills for maintaining the security and performance of your cloud infrastructure.
