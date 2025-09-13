@@ -86,3 +86,24 @@ In this project, you'll learn how to secure Azure Virtual Machines (VMs) using N
     - Name: `Allow-RDP`
 4. Under "Settings", click on "Outbound security rules".
 5. Ensure the default outbound rule allows all outbound traffic.
+
+#### Expected Output
+
+- NSG `myNSG` with an inbound rule allowing RDP access from your IP address.
+
+### Exercise 5: Associate NSG with the VM's Network Interface
+
+#### Steps
+
+1. Navigate to the "Network interfaces" section in the Azure Portal.
+2. Select the network interface associated with `myVM`.
+3. Under "Settings", click on "Network security group".
+4. Associate the network interface with the NSG `myNSG`.
+
+#### Expected Output
+
+- The network interface of `myVM` is now secured by `myNSG`.
+
+## Conclusion
+
+By completing these exercises, you have successfully set up an Azure Virtual Machine, created a Network Security Group, configured security rules, and associated the NSG with your VM. These skills are essential for securing Azure resources and managing network traffic effectively.
