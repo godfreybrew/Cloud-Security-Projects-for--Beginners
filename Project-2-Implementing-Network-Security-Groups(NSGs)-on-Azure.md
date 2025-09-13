@@ -54,3 +54,35 @@ In this project, you'll learn how to secure Azure Virtual Machines (VMs) using N
 #### Expected Output
 
 - An Azure VM `myVM` running in the `myVNet` virtual network.
+
+### Exercise 3: Create a Network Security Group (NSG)
+
+#### Steps
+
+1. Navigate to "Create a resource" and select "Network Security Group".
+2. Configure the NSG:
+    - Name: `myNSG`
+    - Region: Same as the VM region
+3. Review and create the NSG.
+
+#### Expected Output
+
+- An NSG `myNSG` created.
+
+### Exercise 4: Configure Inbound and Outbound Security Rules
+
+#### Steps
+
+1. Navigate to the newly created NSG `myNSG`.
+2. Under "Settings", click on "Inbound security rules".
+3. Add an inbound rule to allow RDP (port 3389) from your IP address:
+    - Source: IP Addresses
+    - Source IP address: Your IP address
+    - Destination: Any
+    - Destination port ranges: 3389
+    - Protocol: TCP
+    - Action: Allow
+    - Priority: 1000
+    - Name: `Allow-RDP`
+4. Under "Settings", click on "Outbound security rules".
+5. Ensure the default outbound rule allows all outbound traffic.
