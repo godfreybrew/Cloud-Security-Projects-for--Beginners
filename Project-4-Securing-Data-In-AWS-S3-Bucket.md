@@ -48,3 +48,45 @@ In this project, you'll learn how to secure data in AWS S3 buckets. S3 is a scal
 #### Expected Output
 
 - Versioning enabled for the S3 bucket `my-secure-bucket`.
+
+### Exercise 3: Enable Server-Side Encryption
+
+#### Steps
+
+1. Navigate to the S3 Dashboard.
+2. Select the bucket `my-secure-bucket`.
+3. Click on "Properties".
+4. Scroll down to "Default encryption" and click "Edit".
+5. Enable server-side encryption with AWS-KMS.
+6. Choose a KMS key or create a new one.
+7. Save changes.
+
+#### Expected Output
+
+- Server-side encryption enabled for the S3 bucket `my-secure-bucket`.
+
+### Exercise 4: Set Bucket Policies
+
+#### Steps
+
+1. Navigate to the S3 Dashboard.
+2. Select the bucket `my-secure-bucket`.
+3. Click on "Permissions".
+4. Scroll down to "Bucket policy" and click "Edit".
+5. Add the following policy to allow read access for a specific user:
+    ```json
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Principal": {
+            "AWS": "arn:aws:iam::123456789012:user/username"
+          },
+          "Action": "s3:GetObject",
+          "Resource": "arn:aws:s3:::my-secure-bucket/*"
+        }
+      ]
+    }
+    ```
+6. Save changes.
