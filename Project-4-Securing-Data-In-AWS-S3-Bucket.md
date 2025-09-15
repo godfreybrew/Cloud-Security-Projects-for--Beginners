@@ -90,3 +90,26 @@ In this project, you'll learn how to secure data in AWS S3 buckets. S3 is a scal
     }
     ```
 6. Save changes.
+
+#### Expected Output
+
+- Bucket policy added to allow specific user access to the S3 bucket `my-secure-bucket`.
+
+### Exercise 5: Configure S3 Access Logs
+
+#### Steps
+
+1. Navigate to the S3 Dashboard.
+2. Select the bucket `my-secure-bucket`.
+3. Click on "Properties".
+4. Scroll down to "Server access logging" and click "Edit".
+5. Enable access logging and specify a target bucket for logs (e.g., `my-log-bucket`).
+6. Save changes.
+
+#### Expected Output
+
+- Server access logging enabled for the S3 bucket `my-secure-bucket`.
+
+## Conclusion
+
+By completing these exercises, you have successfully created an S3 bucket, enabled versioning and server-side encryption, set bucket policies, and configured access logs. These steps are important and essential for securing data stored in AWS S3.
