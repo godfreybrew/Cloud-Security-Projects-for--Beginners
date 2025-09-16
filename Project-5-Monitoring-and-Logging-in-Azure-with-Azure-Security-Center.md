@@ -16,3 +16,33 @@ In this project, you'll learn how to monitor and log activities in Azure using A
 2. **Azure Portal**: Access to the Azure Management Portal.
 3. **Azure CLI**: Install Azure Command Line Interface (CLI) on your local machine.
 
+## Exercises
+
+### Exercise 1: Enable Azure Security Center
+
+#### Steps
+
+1. Log in to the [Azure Portal](https://portal.azure.com/).
+2. Navigate to "Security Center".
+3. Click on "Get started".
+4. Select the subscription you want to protect.
+5. Enable the "Standard" tier for full Security Center capabilities.
+6. Click "Upgrade" to enable Azure Security Center.
+
+#### Expected Output
+
+- Azure Security Center enabled and configured for your subscription.
+
+### Exercise 2: Configure Security Policies
+
+#### Steps
+
+1. In the Azure Portal, navigate to "Security Center".
+2. Click on "Security policy".
+3. Select your subscription.
+4. Configure the policy settings (e.g., enable recommendations for virtual machines, app services, SQL databases).
+5. Click "Save".
+
+#### Expected Output
+
+- Security policies configured to provide recommendations for various Azure resources.
