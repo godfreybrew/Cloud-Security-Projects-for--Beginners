@@ -46,3 +46,21 @@ In this project, you'll learn how to monitor and log activities in Azure using A
 #### Expected Output
 
 - Security policies configured to provide recommendations for various Azure resources.
+
+### Exercise 3: Enable Diagnostic Logs
+
+#### Steps
+
+1. Navigate to a resource group in the Azure Portal.
+2. Select a resource (e.g., a virtual machine).
+3. Click on "Diagnostic settings" under the "Monitoring" section.
+4. Click on "Add diagnostic setting".
+5. Configure the settings:
+    - Name: `myDiagnosticSetting`
+    - Log: Select all relevant logs (e.g., Audit, Security)
+    - Destination: Send to Log Analytics workspace
+6. Click "Save".
+
+#### Expected Output
+
+- Diagnostic logs enabled for the selected resource and sent to Log Analytics.
