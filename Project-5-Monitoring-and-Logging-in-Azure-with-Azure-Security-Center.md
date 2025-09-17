@@ -64,3 +64,20 @@ In this project, you'll learn how to monitor and log activities in Azure using A
 #### Expected Output
 
 - Diagnostic logs enabled for the selected resource and sent to Log Analytics.
+
+### Exercise 4: Set Up Log Analytics Workspace
+
+#### Steps
+
+1. In the Azure Portal, navigate to "Log Analytics workspaces".
+2. Click on "Create".
+3. Configure the workspace settings:
+    - Name: `myLogAnalyticsWorkspace`
+    - Resource group: Select an existing or create a new one
+    - Location: Select a region
+4. Click "Review + create" and then "Create".
+5. Navigate back to your resource's "Diagnostic settings" and link to the newly created Log Analytics workspace.
+
+#### Expected Output
+
+- Log Analytics workspace `myLogAnalyticsWorkspace` created and linked to the diagnostic settings.
