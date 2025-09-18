@@ -81,3 +81,21 @@ In this project, you'll learn how to monitor and log activities in Azure using A
 #### Expected Output
 
 - Log Analytics workspace `myLogAnalyticsWorkspace` created and linked to the diagnostic settings.
+
+### Exercise 5: Monitor Security Alerts and Recommendations
+
+#### Steps
+
+1. Navigate to "Security Center" in the Azure Portal.
+2. Click on "Security alerts" to view any active alerts.
+3. Investigate any listed alerts by clicking on them to view details and suggested actions.
+4. Click on "Recommendations" to view security recommendations for your resources.
+5. Implement suggested actions to improve your security posture.
+
+#### Expected Output
+
+- Active security alerts and recommendations reviewed and appropriate actions taken.
+
+## Conclusion
+
+By completing these exercises, you have successfully enabled Azure Security Center, configured security policies, enabled diagnostic logs, set up a Log Analytics workspace, and monitored security alerts and recommendations. These steps are essential for maintaining the security and compliance of your Azure environment.
